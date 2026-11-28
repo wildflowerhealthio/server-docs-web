@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wildflower server docs</title>
+    <meta
+      name="description"
+      content="Interactive API reference for a running Wildflower server. Point it at your own server with ?server=."
+    />
+    <script type="module" crossorigin src="./assets/index-vKrVKNYR.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-DK3Fl9T5.js">
+    <link rel="modulepreload" crossorigin href="./assets/reactivity.esm-bundler-CGTvMeXp.js">
+    <link rel="modulepreload" crossorigin href="./assets/get-example-value-B1ujizWa.js">
+    <link rel="modulepreload" crossorigin href="./assets/prevent-pollution-DPDD94Gp.js">
+    <link rel="modulepreload" crossorigin href="./assets/redirect-to-proxy-CC10EtL0.js">
+    <link rel="modulepreload" crossorigin href="./assets/preload-helper-DwkRrGtm.js">
+    <link rel="modulepreload" crossorigin href="./assets/parse-json-pointer-segments-CnJeBuoW.js">
+    <link rel="modulepreload" crossorigin href="./assets/runtime-core.esm-bundler-DuBrNcf5.js">
+    <link rel="modulepreload" crossorigin href="./assets/dist-CDqg622_.js">
+    <link rel="modulepreload" crossorigin href="./assets/schema-DwNHxQQK.js">
+    <link rel="modulepreload" crossorigin href="./assets/ScalarIconMagnifyingGlass-CEv-3AjO.js">
+    <link rel="modulepreload" crossorigin href="./assets/ScalarModal-DgkXCklt.js">
+    <link rel="modulepreload" crossorigin href="./assets/types-yYKFEbCZ.js">
+    <link rel="modulepreload" crossorigin href="./assets/browser-Du5DYk-x.js">
+    <link rel="modulepreload" crossorigin href="./assets/browser-YRZqAXwn.js">
+    <link rel="modulepreload" crossorigin href="./assets/workspace-events-ALKDlBBG.js">
+    <link rel="modulepreload" crossorigin href="./assets/ScalarVirtualText.vue-BxyF-wYB.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-zM6G-DlH.css">
+  </head>
+  <body>
+    <header class="brand-bar">
+      <a href="https://wildflowerhealth.io/" aria-label="Wildflower, home" class="brand-bar__link">
+        <img src="./app-icon.png" alt="" width="24" height="24" class="brand-bar__icon" />
+        <span class="brand-bar__wordmark">Wildflower</span>
+      </a>
+    </header>
+    <div class="server-bar">
+      <p id="server-target" class="server-bar__target" hidden>
+        <span class="server-bar__label">Wildflower server</span>
+        <span id="server-target-url" class="server-bar__url"></span>
+      </p>
+      <button id="change-server" class="server-bar__submit" type="button" hidden>
+        Change server
+      </button>
+      <button id="sign-in" class="server-bar__submit" type="button" hidden>Sign in</button>
+      <p id="server-hint" class="server-bar__hint" hidden>
+        Every request below is sent to this origin, straight from your browser — nothing is proxied.
+        The target is kept in the page URL, so a configured console can be shared as a link.
+      </p>
+      <p id="auth-status" class="server-bar__status" hidden></p>
+    </div>
+    <section id="connect" class="connect" aria-labelledby="connect-heading" hidden></section>
+    <div id="reference"></div>
+  </body>
+</html>
